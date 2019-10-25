@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title> layout2</title>
+<meta name="viewport" content="width=device-width,intial-scale=1.0" >
+<style>
+	*{
+		box-sizing: border-box;
+		
+	}
+	.menu{
+		float: left;
+		width:10%;
+		text-align: left;
+		background-color:#EEE8AA;
+		height: 200px;
+	}
+	.menu a{
+		background-color: powderblue;
+		padding: 8px;
+		margin-top: 7px;
+		display: block;
+		width: 100%;
+		color:black;
+
+	}
+	.main{
+		float:left;
+		width: 60%;
+		padding:0 20px;
+	}
+	
+	@media only screen and (max-width: 620px){
+		/*For mobile phones:*/ .menu, .main, .right{width:100%;
+	      }
+    }
+</style>
+</head>
+
+<body style="font-family: algibran;color:black;">
+
+	<div style="background-color: gray;padding: 15px;text-align: left;" >
+		<h1>PROCESS LAYOUT EXAMPLE</h1>
+	</div>
+
+	<div style="overflow: auto">
+		<div class="menu">
+			
+            <p><b>Main Menu</b></p>
+			<p>Link one</p>
+            <p>Link two</p>
+            <p>Link four</p>
+         </div>
+
+		<div class="main">
+			<h5>This is an example layout using the tables</h5>
+    
+		</div>
+   		
+
+	</div>
+	<div style="background-color:gray;text-align:center;padding:10px;margin-top:7px;">www.Example of layout using tables.com</div>
+</body>
+</html>
+	
